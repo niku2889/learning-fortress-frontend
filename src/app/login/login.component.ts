@@ -18,6 +18,7 @@ import { AuthService } from "../auth/auth.service";
     styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
+    //Login component Start
     userType: number;
 
     sel: boolean = false;
@@ -28,4 +29,5 @@ export class LoginComponent {
         this.sel = true;
         this.userType = userType;
     }
+    //Login component End
 }
